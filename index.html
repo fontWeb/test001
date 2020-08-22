@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script src="./index.js"></script>
+<script>
+  const p = new Promise(function (resolve, reject) {
+    setTimeout(() => {
+      // resolve('ok')
+      // console.log('onresoled()之后');
+      // reject('error')
+    }, 0);
+    // throw 2;
+    // resolve('ok')
+  })
+  p.then(
+    res => console.log(res),
+    err => console.log(err)
+  )
+  p.then(
+    res => console.log(res),
+    err => console.log(err)
+  )
+  p.then(
+    res => console.log(res),
+    err => console.log(err)
+  )
+</script>
+
+</html>
